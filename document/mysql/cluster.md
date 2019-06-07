@@ -46,6 +46,8 @@ mysqlslap -hlocalhost -uroot -proot -P3306 --concurrency=10000 --iterations=1 --
 
 ### 数据库集群的演进方案
 
+MySQL数据库瓶颈：单表数据达到**两千万**，性能会变得非常的差劲。
+
 
 
 [back2index](./../../index.html)
