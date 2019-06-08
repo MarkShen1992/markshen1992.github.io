@@ -20,3 +20,6 @@ layout: default
 
 [MySQL集群入门](./document/mysql/cluster.html)
 
+### 设计模式
+
+[设计模式](<https://github.com/MarkShen1992/DesignPattern>)
