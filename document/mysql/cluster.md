@@ -44,9 +44,39 @@
 mysqlslap -hlocalhost -uroot -proot -P3306 --concurrency=10000 --iterations=1 --auto-generate-sql --auto-generate-sql-load-type=mixed --auto-generate-sql-add-autoincrement --engine=innodb --number-of-queries=10000 --debug-info
 ```
 
-### 数据库集群的演进方案
+### [数据库集群的演进方案](<https://www.imooc.com/video/17160>)(慕课网)
 
 MySQL数据库瓶颈：单表数据达到**两千万**，性能会变得非常的差劲。
+
+第一种集群方案：PXC集群(牺牲速度，保证数据强一致性)
+
+![PXC集群](https://markshen1992.github.io/document/mysql/arch_01.png)
+
+第二种集群方案：Replication集群
+
+![Replication集群](https://markshen1992.github.io/document/mysql/arch_02.png)
+
+第三种集群方案：组合前两种方案
+
+![组合前两种方案](https://markshen1992.github.io/document/mysql/arch_03.png)
+
+大数据领域，**[协同过滤算法](<https://blog.csdn.net/xiaokang123456kao/article/details/74735992>)**
+
+定目标，分解目标，逐步去实现。
+
+### 系统架构方案
+
+#### 系统架构方案1
+
+![系统架构方案1](https://markshen1992.github.io/document/mysql/arch_04.png)
+
+#### 系统架构方案2
+
+![系统架构方案2](https://markshen1992.github.io/document/mysql/arch_05.png)
+
+#### 系统架构方案3
+
+![系统架构方案3](https://markshen1992.github.io/document/mysql/arch_06.png)
 
 
 
