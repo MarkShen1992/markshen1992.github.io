@@ -10,6 +10,32 @@
 
 
 
+#### 七大接口
+
+- RepositoryService: 流程仓库，用户管理流程仓库，例如，部署，删除，读取流程资源
+- TaskService: 任务，用户管理，查询任务，例如，牵手，办理，指派等
+- IdentityService: 身份，可以管理和查询用户，组之间的关系
+- FormService: 表单，用户读取和流程，任务相关的表单数据
+- RuntimeService: 运行时，可以处理所有正在运行状态的流程实例，任务等
+- ManagementService: 引擎管理，和具体业务无关，主要可以查询引擎配置，数据库，作业等
+- HistoryService: 历史，可以查询所有历史数据，例如，流程实例，任务，活动，变量，附件等
+
+#### 应用
+
+- 系统集成
+  - 与**ESB**整合
+  - 与规则引擎整合，**JBoss Drools**
+  - 嵌入已有系统平台
+- 其他产品
+
+#### 生命周期
+
+![工作流生命周期](<http://www.uml.org.cn/soa/images/2016031111.jpg>)
+
+**Talk is cheap, show me the code!!!**
+
+
+
 #### Activiti学习资料
 
 [Business Process Model and Notation](<http://www.bpmn.org/>)
