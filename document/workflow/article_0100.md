@@ -13,7 +13,7 @@
 #### 七大接口
 
 - RepositoryService: 流程仓库，用户管理流程仓库，例如，部署，删除，读取流程资源
-- TaskService: 任务，用户管理，查询任务，例如，牵手，办理，指派等
+- TaskService: 任务，用户管理，查询任务，例如，签收，办理，指派等
 - IdentityService: 身份，可以管理和查询用户，组之间的关系
 - FormService: 表单，用户读取和流程，任务相关的表单数据
 - RuntimeService: 运行时，可以处理所有正在运行状态的流程实例，任务等
