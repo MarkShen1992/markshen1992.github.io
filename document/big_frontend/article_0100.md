@@ -12,6 +12,9 @@
 
 [yarn](<https://yarnpkg.com/zh-Hans/>)   [yarn—Nodejs包新管理工具](https://segmentfault.com/a/1190000007189426)
 
+[大公司里怎样开发和部署前端代码？](<https://www.zhihu.com/question/20790576>)
+
 ---
 
 [back2index](./../../index.html) [next_article](./article_0200.html) 
+
