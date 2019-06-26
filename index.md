@@ -6,6 +6,16 @@ layout: default
 
 ------
 
+### 算法
+
+[算法](./document/sf/algorithm.html)
+
+### 设计模式
+
+[设计模式](<https://github.com/MarkShen1992/DesignPattern>)
+
+---
+
 ### Java
 
 [Java高并发编程源码](<https://github.com/MarkShen1992/Mashibing_High_Concurrency>)
@@ -20,19 +30,9 @@ layout: default
 
 [MySQL集群入门](./document/mysql/cluster.html)
 
-### 设计模式
-
-[设计模式](<https://github.com/MarkShen1992/DesignPattern>)
-
 ### 工作流
 
 [工作流](./document/workflow/article_0100.html)
-
----
-
-### 算法
-
-[算法](./document/sf/algorithm.html)
 
 ---
 
