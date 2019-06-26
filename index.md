@@ -30,6 +30,12 @@ layout: default
 
 ---
 
+### 算法
+
+[算法](./document/sf/algorithm.html)
+
+---
+
 ### 大前端
 
 [大前端](./document/big_frontend/article_0100.html)
