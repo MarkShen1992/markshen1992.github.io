@@ -14,7 +14,7 @@
 
 ### 其他算法
 
-[LRU(Least Recently Used)](<https://zhuanlan.zhihu.com/p/52196637>): Java源码中的LinkedHashMap.java
+[LRU(Least Recently Used)](<https://zhuanlan.zhihu.com/p/52196637>): Java源码中的[LinkedHashMap.java](<https://github.com/alibaba/dragonwell8_jdk/blob/master/src/share/classes/java/util/LinkedHashMap.java>) 
 
 ---
 
