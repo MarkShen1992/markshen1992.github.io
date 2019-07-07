@@ -30,6 +30,10 @@ layout: default
 
 [MySQL集群入门](./document/mysql/cluster.html)
 
+### 缓存
+
+[Redis](./document/cache/redis.html)
+
 ### 工作流
 
 [工作流](./document/workflow/article_0100.html)
