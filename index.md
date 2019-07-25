@@ -20,7 +20,7 @@ layout: default
 
 [分布式系统的经典基础理论](https://www.cnblogs.com/snailclimb/p/9086328.html) 
 
-
+[学习分布式系统需要怎样的知识](<https://www.zhihu.com/question/23645117>) 
 
 ---
 
