@@ -16,6 +16,14 @@ layout: default
 
 ---
 
+### 分布式系统
+
+[分布式系统的经典基础理论](https://www.cnblogs.com/snailclimb/p/9086328.html) 
+
+
+
+---
+
 ### Java
 
 [Java高并发编程源码](<https://github.com/MarkShen1992/Mashibing_High_Concurrency>)
