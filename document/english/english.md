@@ -2,7 +2,7 @@
 
 商务英语课讲道理老师推荐：
 
-1. 《思维导图》，推荐一款小众软件 **[ThinkingExpress download link](http://d.pcsoft.com.cn/download/pc/ThinkingExpress_zh_2.7.zip)**
+1. 《思维导图》，推荐一款小众软件 **[ThinkingExpress download link](https://dlc2.pconline.com.cn/filedown_59727_6758944/yhHgbFhk/ThinkingExpress_zh_2.7.zip)**
 2. 《金字塔原理》
 3. 《笔记本圆梦小组》
 4. 《伯恩斯新情绪疗法》
