@@ -5,6 +5,7 @@
 如果想要写出好文章，我们要大量的阅读经典的文章。并在自己的文章中**刻意**运用自己读过文章中作者的行文方法。熟悉那种写作方式。同样，如果要提高自己的代码质量，我们也要大量阅读**经典的代码**，明白其实现原理。**如果同一功能你去实现，你怎么办？** 理解作者的设计思想，然后不看作者实现，自己实现一遍。下面我看Java源码的顺序如下：
 
 - **java.lang** 包下的所有Java类
+  - Provides classes that are fundamental to the design of the Java programming language.
 - ...
 
 ---
