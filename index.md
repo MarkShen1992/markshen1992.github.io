@@ -40,6 +40,8 @@ layout: default
 
 [开涛的博客](https://jinnianshilongnian.iteye.com/blog/1752171) 
 
+[FreeMarker](./document/freemarker/index.html) 
+
 ### Docker使用日记
 
 [Docker使用日记](./document/docker/docker.html)
