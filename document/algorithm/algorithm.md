@@ -49,7 +49,7 @@ Phone Interview
 
 ### 有趣且实用的
 
-![](D:\markshen1992.github.io\document\algorithm\link.png)
+![](D:\github\markshen1992.github.io\document\algorithm\link.png)
 
 
 
@@ -62,9 +62,9 @@ Phone Interview
 - Chunk it up （切碎知识点）
   - 知识树
 
-![](D:\markshen1992.github.io\document\algorithm\datastructure_summary.png)
+![](D:\github\markshen1992.github.io\document\algorithm\datastructure_summary.png)
 
-![](D:\markshen1992.github.io\document\algorithm\datastructure.png)
+![](D:\github\markshen1992.github.io\document\algorithm\datastructure.png)
 
 
 
@@ -89,11 +89,11 @@ Phone Interview
 
 ## 第三节
 
-![](D:\markshen1992.github.io\document\algorithm\summary_datastructure.png)
+![](D:\github\markshen1992.github.io\document\algorithm\summary_datastructure.png)
 
 ### 时间复杂度，空间复杂度
 
-![](D:\markshen1992.github.io\document\algorithm\shikongfuzadu.png)
+![](D:\github\markshen1992.github.io\document\algorithm\shikongfuzadu.png)
 
 ### 代码例子
 
@@ -158,15 +158,15 @@ for (int i=0; i<Math.pow(2, n); i++) {
 }
 ```
 
-![](D:\markshen1992.github.io\document\algorithm\lecture3_0100.png)
+![](D:\github\markshen1992.github.io\document\algorithm\lecture3_0100.png)
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture3_0200.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture3_0200.png)
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture3_0300.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture3_0300.png)
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture3_0400.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture3_0400.png)
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture3_0500.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture3_0500.png)
 
 
 
@@ -190,9 +190,9 @@ leetcode支持Google, facebook, linkedin, github登录
 
 ### 数组，链表
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture4_0100.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture4_0100.png)
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture4_0200.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture4_0200.png)
 
 ### Array
 
@@ -204,17 +204,17 @@ Insert, Delete: 平均O(n)
 
 ### Linked List
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture4_0300.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture4_0300.png)
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture4_0400.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture4_0400.png)
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture4_0500.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture4_0500.png)
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture4_0600.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture4_0600.png)
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture4_0700.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture4_0700.png)
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture4_0800.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture4_0800.png)
 
 
 
@@ -222,11 +222,11 @@ Insert, Delete: 平均O(n)
 
 ### 数组与链表习题
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture5_0100.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture5_0100.png)
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture6_0100.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture6_0100.png)
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture6_0200.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture6_0200.png)
 
 链表是否有环
 
@@ -244,11 +244,11 @@ Queue: First In First Out (FIFO)
 
 ​	Array or Doubly Linked List
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture6_0300.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture6_0300.png)
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture6_0400.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture6_0400.png)
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture6_0500.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture6_0500.png)
 
 [算法性能比对](<http://www.bigocheatsheet.com/>)
 
@@ -260,9 +260,9 @@ Queue: First In First Out (FIFO)
 
    {)} 不合法
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture7_0100.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture7_0100.png)
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture7_0200.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture7_0200.png)
 
 leetcode: 232, 255
 
@@ -282,13 +282,13 @@ leetcode: 232, 255
 
 2. Binary Search Tree
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture8_0100.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture8_0100.png)
 
 二叉堆调整
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture8_0200.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture8_0200.png)
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture8_0300.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture8_0300.png)
 
 学会用Leetcode，wikipedia
 
@@ -296,11 +296,11 @@ leetcode: 232, 255
 
 leetcode 703
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture8_0400.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture8_0400.png)
 
 leetcode 239
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture8_0500.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture8_0500.png)
 
 ## 第九节 Hash table
 
@@ -309,13 +309,13 @@ leetcode 239
 3. HashMap, HashSet, TreeMap, TreeSet
 4. 查询和计数
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture9_0100.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture9_0100.png)
 
 ### 哈希碰撞问题
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture9_0200.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture9_0200.png)
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture9_0300.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture9_0300.png)
 
 对速度要求高的时候，用HashMap, HashSet
 
@@ -335,11 +335,11 @@ leetcode 239
 
 ### 树
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_0100.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_0100.png)
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_0200.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_0200.png)
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_0300.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_0300.png)
 
 LinkedList 就是特殊化的树
 
@@ -371,7 +371,7 @@ Recursively, 左右子树也分别是二叉查找树。
 
 平衡二叉搜索树，红黑树
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_0400.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_0400.png)
 
 ### 题目实战
 
@@ -385,7 +385,7 @@ leetcode 98，235，236
 
 实际中用的非常少。
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_0500.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_0500.png)
 
 上图前中后序遍历结果如下：
 
@@ -409,13 +409,13 @@ leetcode 98，235，236
 
   计算n!.
 
-  ![](D:\markshen1992.github.io\document\algorithm\Lecture10_0600.png)
+  ![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_0600.png)
 
 - Divide & Conquer
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_0700.jpg)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_0700.jpg)
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_0800.jpg)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_0800.jpg)
 
 ### 题目实战
 
@@ -425,7 +425,7 @@ leetcode 98，235，236
 
 在对问题求解时，总是做出在当前看来是最好的选择。
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_0900.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_0900.png)
 
 ### 适用场景
 
@@ -439,9 +439,9 @@ leetcode 122
 
 ### 广度优先搜索
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_1000.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_1000.png)
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_1100.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_1100.png)
 
 用**队列**数据结构来解决，用队列来存每层的数据。不仅适用于树，也适用于图，状态机。访问过的节点要被标记。
 
@@ -449,11 +449,11 @@ leetcode 122
 
 ### 深度优先搜索
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_1200.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_1200.png)
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_1300.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_1300.png)
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_1400.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_1400.png)
 
 DFS-递归写法
 
@@ -465,22 +465,22 @@ leetcode 102, 104, 111, 22
 
 搜索中用到的。
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_1500.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_1500.png)
 
 解决问题：
 
 1. 现实中很多搜索问题，状态集合非常大。
 2. 很多在分叉的时候，已经得到优先级的判断。优胜劣汰的判断之后。
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_1600.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_1600.png)
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_1700.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_1700.png)
 
 搜索 + 剪枝
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_1800.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_1800.png)
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_1900.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_1900.png)
 
 ### 题目实战
 
@@ -510,7 +510,7 @@ leetcode 69
 
 Trie的数据结构
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_2000.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_2000.png)
 
 Trie的核心思想
 
@@ -518,7 +518,7 @@ Trie的核心思想
 
 Trie的基本性质
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_2100.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_2100.png)
 
 ### 习题实战
 
@@ -532,17 +532,17 @@ leetcode 79, 212
 
 介绍
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_2200.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_2200.png)
 
 常用操作
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_2300.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_2300.png)
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_2400.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_2400.png)
 
 应用
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_2500.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_2500.png)
 
 ### 题目实战
 
@@ -552,11 +552,11 @@ leetcode 191, 231, 338, 52
 
 ### 动态规划
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_2600.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_2600.png)
 
 ### 斐波那契数列
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_2700.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_2700.png)
 
 ### DP vs 回溯 vs 贪心
 
@@ -574,7 +574,7 @@ leetcode 70, 120, 152, 121, 122, 123, 309, 188, 714, 300, 322, 72
 
 ### 并查集
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_2800.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_2800.png)
 
 #### 现实中要解决的问题
 
@@ -584,9 +584,9 @@ leetcode 70, 120, 152, 121, 122, 123, 309, 188, 714, 300, 322, 72
 
 两种优化方式
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_2900.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_2900.png)
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_3000.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_3000.png)
 
 ### 题目实战
 
@@ -602,7 +602,7 @@ leetcode 200
 
 代码模块（背下来）
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_3100.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_3100.png)
 
 <https://www.sqlpassion.at/archive/2018/01/06/understanding-the-meltdown-exploit-in-my-own-simple-words/> （需翻墙）
 
@@ -613,11 +613,11 @@ leetcode 200
 3. O(1) 查询
 4. O(1) 修改，更新
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_3200.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_3200.png)
 
 ### LFU
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_3300.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_3300.png)
 
 习题实战
 
@@ -629,51 +629,51 @@ leetcode 146
 
 在网络中，分布式系统中用到的非常多
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_3400.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_3400.png)
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_3500.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_3500.png)
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_3600.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_3600.png)
 
 ## 第十一节 课程重点回顾
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_3700.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_3700.png)
 
 《指导生活的算法》简述·[兔妈在美国](<https://www.jianshu.com/u/a31ae0dc0acf>)
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_3800.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_3800.png)
 
 ### 代码模板
 
 递归模板
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_3900.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_3900.png)
 
 DFS代码-递归写法
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_4000.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_4000.png)
 
 BFS代码
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_4100.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_4100.png)
 
 二分查找
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_4200.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_4200.png)
 
 DP模板
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_4300.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_4300.png)
 
 ### 练习和切题
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_4400.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_4400.png)
 
 题目至少要做三遍。
 
 ### 面试答题四件套
 
-![](D:\markshen1992.github.io\document\algorithm\Lecture10_4500.png)
+![](D:\github\markshen1992.github.io\document\algorithm\Lecture10_4500.png)
 
 [算法与数据结构，你一定要知道的](<https://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&mid=2651961961&idx=1&sn=dbb9c041bd2210ba91374715ce91eefe&chksm=bd2d0fb58a5a86a3c96a6a0ba9330e123d8039f2477654593af0a4088362ee4c9aaab287f911&scene=21#wechat_redirect>)
 
