@@ -62,6 +62,8 @@ layout: default
 
 ### 大前端
 
+[浏览器的工作原理：新式网络浏览器幕后揭秘](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/)
+
 [七天学会Node.js](http://wiki.jikexueyuan.com/project/nodejs-guide/overwise.html)
 
 [大前端](./document/big_frontend/article_0100.html)
