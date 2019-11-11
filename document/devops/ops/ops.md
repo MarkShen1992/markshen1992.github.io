@@ -2,6 +2,8 @@
 
 ---
 
+#### 0. [Linux基本命令](https://markshen1992.github.io/document/devops/ops/linux/linux_basic_command.html)
+
 #### 1. [Linux系统中安装JDK](https://markshen1992.github.io/document/devops/ops/linux/linux_java_install.html)
 
 #### 2. [Linux系统中安装Zookeeper集群](https://markshen1992.github.io/document/devops/ops/linux/linux_install_zookeeper_cluster.html)
