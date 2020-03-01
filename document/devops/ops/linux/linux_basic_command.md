@@ -23,6 +23,10 @@ systemctl restart firewalld.service
 
 # 重新载入配置
 firewall-cmd --reload
+
+# 查看端口情况 MySQL 数据库
+yum install net-tools -y
+netstat -na | grep 3306
 ```
 
 ### CentOS 最小安装开机网络不要用
