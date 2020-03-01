@@ -25,7 +25,79 @@ systemctl restart firewalld.service
 firewall-cmd --reload
 ```
 
+### CentOS 最小安装开机网络不要用
 
+#### 问题描述
+
+```
+[root@localhost ~]: ip addr (或者 ip a)
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host
+       valid_lft forever preferred_lft forever
+2: ens33: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 00:0c:29:16:27:c9 brd ff:ff:ff:ff:ff:ff
+[root@localhost ~]:
+```
+
+#### 解决方案
+
+```
+vi /etc/sysconfig/network-scripts/ifcfg-ens33
+
+ONBOOT=no => ONBOOT=yes
+Esc => :wq => service network restart
+
+# 测试
+ping www.baidu.com
+```
+
+CentOS 配置国内镜像
+
+```
+# 先安装 wget 命令
+yum install -y wget
+
+# 备份
+mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup
+
+# 换成国内各厂商的镜像
+# 换成阿里云镜像
+wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo
+# 换成华为云镜像
+wget -O /etc/yum.repos.d/CentOS-Base.repo https://mirrors.huaweicloud.com/repository/conf/CentOS-7-anon.repo
+
+# 清除原来的 yum 缓存
+yum clean all
+
+# 刷新缓存
+yum makecache
+
+# 刷缓存替换方案(查看所有配置可以使用的文件，会自动刷新缓存)
+yum repolist all
+```
+
+### Kubenetes安装
+
+```
+# 关闭防火墙
+systemctl disable firewalld
+systemctl stop firewalld
+
+# 安装 kubernetes 
+yum install -y etcd kubernetes
+
+# 按顺序启动所有服务，建议写一个脚本文件
+systemctl start etcd
+systemctl start docker
+systemctl start kube-apiserver
+systemctl start kube-controller-manager
+systemctl start kube-scheduler
+systemctl start kubelet
+systemctl start kube-proxy
+```
 
 ---
 
