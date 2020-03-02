@@ -27,6 +27,11 @@ firewall-cmd --reload
 # 查看端口情况 MySQL 数据库
 yum install net-tools -y
 netstat -na | grep 3306
+
+# telnet 工具使用
+rpm -qa telnet
+yum install telnet -y
+telnet localhost 6379
 ```
 
 ### CentOS 最小安装开机网络不要用
