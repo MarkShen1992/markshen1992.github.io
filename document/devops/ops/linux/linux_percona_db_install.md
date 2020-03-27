@@ -4,7 +4,8 @@
 - 安装前准备
 - 安装
 - 测试安装是否成功
-- MySQL修改用户的密码主要有两种方法
+- MySQL修改用户密码的两种方法
+- 使用Navicat连接不上MySQL怎么办
 - 参考资料
 
 
@@ -107,9 +108,9 @@ set global validate_password_policy=0;
 ALTER USER USER() IDENTIFIED BY '123456';
 ```
 
-### MySQL修改用户的密码主要有两种方法
+### MySQL修改用户密码的两种方法
 
-### ALTER USER 
+#### ALTER USER 
 
 **基本使用**
 
@@ -149,7 +150,7 @@ ALTER USER testuser IDENTIFIED BY '123456' PASSWORD EXPIRE INTERVAL 90 DAY;
 
 **在MySQL文档里，推荐使用ALTER USER修改用户密码**
 
-### SET PASSWORD
+#### SET PASSWORD
 
 使用SET PASSWORD的password有两种：
 
@@ -166,6 +167,33 @@ SET PASSWORD FOR testuser = PASSWORD("123456")
 ```
 
 **注意：使用PASSWORD('auth_string')的方式已经被废弃，在以后的版本会把它移除，所以不建议使用它来修改密码。**
+
+### 使用Navicat连接不上MySQL怎么办
+
+- 使用 Navicat 连不上MySQL可能的原因可能有好多种
+
+  - Linux 服务器开着防火墙
+
+    ```shell
+    # CentOS 7 中开关防火墙方法
+    systemctl start|stop firewalld
+    ```
+
+  - MySQL 数据库自己的权限问题
+
+    ```SQL
+    # 对于MySQL自己的问题, 我们有两种方式来修改
+    1. 改表法
+    use mysql;
+    update user set host = '%' where user = 'root';
+    select host, user from user;
+    flush privileges;  
+    
+    2. 授权法
+    GRANT ALL PRIVILEGES ON *.* TO 'root'@'192.168.1.102' IDENTIFIED BY 'aA111111' WITH GRANT OPTION;
+    GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'aA111111' WITH GRANT OPTION;
+    FLUSH PRIVILEGES;
+    ```
 
 ## 参考文章
 
