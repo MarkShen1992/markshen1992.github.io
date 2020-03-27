@@ -34,7 +34,7 @@ yum install telnet -y
 telnet localhost 6379
 ```
 
-### CentOS 最小安装开机网络不要用
+### CentOS 最小安装开机网络不好用
 
 #### 问题描述
 
@@ -48,7 +48,7 @@ telnet localhost 6379
        valid_lft forever preferred_lft forever
 2: ens33: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
     link/ether 00:0c:29:16:27:c9 brd ff:ff:ff:ff:ff:ff
-[root@localhost ~]:
+[root@localhost ~]: ifup ens33
 ```
 
 #### 解决方案
