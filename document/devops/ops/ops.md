@@ -14,7 +14,7 @@
 
 - [微信文章-DNSMQA搭建DNS服务器](https://mp.weixin.qq.com/s/rfPG6lbeHPTJmrYiuAZpvA)
 
-#### 5. [Linux(CentOS 7) 安装 Percona DB-5.7.21-21](https://github.com/MarkShen1992/markshen1992.github.io/blob/master/document/devops/ops/linux/linux_percona_db_install.md)
+#### 5. [Linux(CentOS 7) 安装 Percona DB-5.7.21-21](https://markshen1992.github.io/document/devops/ops/linux/linux_percona_db_install.md)
 
 
 

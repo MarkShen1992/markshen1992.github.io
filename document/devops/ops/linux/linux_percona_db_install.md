@@ -169,5 +169,6 @@ SET PASSWORD FOR testuser = PASSWORD("123456")
 
 ## 参考文章
 
-https://www.cnblogs.com/ivictor/p/5142809.html
-https://majing.io/posts/10000005531181
+[1] https://www.cnblogs.com/ivictor/p/5142809.html
+
+[2] https://majing.io/posts/10000005531181
