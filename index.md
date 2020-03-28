@@ -20,6 +20,8 @@ layout: default
 
 [Distributed-Systems](https://github.com/feixiao/Distributed-Systems)
 
+[启示录](https://blog.microdba.com/Qix/)
+
 [学习分布式系统需要怎样的知识](<https://www.zhihu.com/question/23645117>) 
 
 ---
