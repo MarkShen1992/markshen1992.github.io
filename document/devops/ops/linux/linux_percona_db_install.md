@@ -6,6 +6,7 @@
 - 测试安装是否成功
 - MySQL修改用户密码的两种方法
 - 使用Navicat连接不上MySQL怎么办
+- Linux下MySQL大小写敏感问题
 - 参考资料
 
 
@@ -194,6 +195,10 @@ SET PASSWORD FOR testuser = PASSWORD("123456")
     GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'aA111111' WITH GRANT OPTION;
     FLUSH PRIVILEGES;
     ```
+
+### [Linux下MySQL大小写敏感问题](https://blog.csdn.net/zhaopeng_yu/article/details/80785813)
+
+
 
 ## 参考文章
 
