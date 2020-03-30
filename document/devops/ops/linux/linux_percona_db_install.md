@@ -198,7 +198,26 @@ SET PASSWORD FOR testuser = PASSWORD("123456")
 
 ### [Linux下MySQL大小写敏感问题](https://blog.csdn.net/zhaopeng_yu/article/details/80785813)
 
+- Linux 下 case_sensitive 是由`lower_case_table_names`变量控制的。只需要在 `my.cnf` 的配置文件配置下就可以了。`my.cnf` 配置文件位于 /etc/my.cnf 下，使用编辑命令 `vim /etc/my.cnf` 编辑，并添加如下配置即可。
 
+  ```
+  [mysqld]
+  lower_case_table_names=1
+  ```
+
+- 配置完成后, 保存文件退出即可。
+
+  ```
+  Esc
+  :wq
+  ```
+
+- 重启 Percona MySQL 服务
+
+  ```
+  service mysqld restart
+  systemctl restart mysqld
+  ```
 
 ## 参考文章
 
