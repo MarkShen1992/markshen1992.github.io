@@ -7,13 +7,14 @@
 - MySQL修改用户密码的两种方法
 - 使用Navicat连接不上MySQL怎么办
 - Linux下MySQL大小写敏感问题
+- Percona Toolkit Install
 - 参考资料
 
 
 
 ### Percona DB-5.7.21-21 软件下载
 
-```
+```shell
 # Percona db 可以在其官网上下载
 https://www.percona.com/downloads/Percona-Server-5.7/LATEST/
 
@@ -26,7 +27,7 @@ tar -xvf Percona-Server-5.7.21-21-r2a37e4e-el7-x86_64-bundle.tar
 
 ### 安装前准备
 
-```
+```shell
 rpm -ivh *.rpm
 
 # Percona 安装装在 CentOS 7 上，安装 Percona 前要先安装 Percona 依赖的程序包
@@ -50,7 +51,7 @@ yum install -y perl-JSON
 
 ### 安装
 
-```
+```shell
 rpm -ivh *.rpm
 
 [root@localhost percona5.7]# rpm -ivh *.rpm
@@ -97,7 +98,7 @@ See http://www.percona.com/doc/percona-server/5.7/management/udf_percona_toolkit
 
 ### 测试安装是否成功
 
-```
+```Shell
 # 查看 Percona 默认密码
 cat /var/log/mysqld.log  | grep "A temporary password" | awk -F " " '{print$11}'
 
@@ -127,25 +128,25 @@ ALTER USER USER() IDENTIFIED BY '123456';
 
 **使密码过期**
 
-```
+```SQL
 ALTER USER testuser IDENTIFIED BY '123456' PASSWORD EXPIRE;
 ```
 
 **使密码从不过期**
 
-```
+```SQL
 ALTER USER testuser IDENTIFIED BY '123456' PASSWORD EXPIRE NEVER;
 ```
 
 **按默认设置过期时间**
 
-```
+```SQL
 ALTER USER testuser IDENTIFIED BY '123456' PASSWORD EXPIRE DEFAULT;
 ```
 
 **指定过期间隔**
 
-```
+```SQL
 ALTER USER testuser IDENTIFIED BY '123456' PASSWORD EXPIRE INTERVAL 90 DAY;
 ```
 
@@ -157,13 +158,13 @@ ALTER USER testuser IDENTIFIED BY '123456' PASSWORD EXPIRE INTERVAL 90 DAY;
 
 使用默认加密
 
-```
+```SQL
 SET PASSWORD FOR testuser = '123456'
 ```
 
 使用PASSWORD()函数加密
 
-```
+```SQL
 SET PASSWORD FOR testuser = PASSWORD("123456")
 ```
 
@@ -214,9 +215,61 @@ SET PASSWORD FOR testuser = PASSWORD("123456")
 
 - 重启 Percona MySQL 服务
 
-  ```
-  service mysqld restart
+  ```shell
+  service mysqld restart 
+  # 或
   systemctl restart mysqld
+  ```
+
+### Percona Toolkit Install
+
+- 下载 Percona Toolkit
+
+  ```shell
+  # 访问下面网址获取最新的percona-toolkit
+  # https://www.percona.com/downloads/percona-toolkit/LATEST/
+  # Linux 中使用 wget 命令下载 percona-toolkit
+  wget https://www.percona.com/downloads/percona-toolkit/3.1.0/binary/redhat/7/x86_64/percona-toolkit-3.1.0-2.el7.x86_64.rpm
+  ```
+
+- 在 CentOS 系统中安装 Percona Toolkit
+
+  ```shell
+  mkdir percona-toolkit & cd percona-toolkit
+  rpm -ivh percona-toolkit-3.1.0-2.el7.x86_64.rpm
+  警告：percona-toolkit-3.1.0-2.el7.x86_64.rpm: 头V4 RSA/SHA256 Signature, 密钥 ID 8507efa5: NOKEY
+  错误：依赖检测失败：
+          perl(DBI) >= 1.13 被 percona-toolkit-3.1.0-2.el7.x86_64 需要
+          perl(DBD::mysql) >= 1.0 被 percona-toolkit-3.1.0-2.el7.x86_64 需要
+          perl(IO::Socket::SSL) 被 percona-toolkit-3.1.0-2.el7.x86_64 需要
+          perl(Digest::MD5) 被 percona-toolkit-3.1.0-2.el7.x86_64 需要
+          perl(Term::ReadKey) 被 percona-toolkit-3.1.0-2.el7.x86_64 需要
+  ```
+
+- 解决所需要的依赖包
+
+  ```shell
+  yum install perl-DBI -y
+  yum install perl-DBD-MySQL -y
+  yum install perl-IO-Socket-SSL -y
+  yum install perl-Digest-MD5 -y
+  yum install perl-TermReadKey -y
+  ```
+
+- 安装 Percona Toolkit
+
+  ```shell
+  rpm -ivh percona-toolkit-3.1.0-2.el7.x86_64.rpm
+  警告：percona-toolkit-3.1.0-2.el7.x86_64.rpm: 头V4 RSA/SHA256 Signature, 密钥 ID 8507efa5: NOKEY
+  准备中...                          ################################# [100%]
+  正在升级/安装...
+     1:percona-toolkit-3.1.0-2.el7      ################################# [100%]
+  ```
+
+- 常用命令以及使用方法
+
+  ```shell
+  # 在 Linux 操作系统中使用 pt + 两下[Tab]键 查看与 percona-toolkit 相关的命令
   ```
 
 ## 参考文章
