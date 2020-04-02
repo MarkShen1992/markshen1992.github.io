@@ -88,25 +88,13 @@ yum makecache
 yum repolist all
 ```
 
-### Kubenetes安装
+### Linux 系统常用配置文件
 
-```
-# 关闭防火墙
-systemctl disable firewalld
-systemctl stop firewalld
 
-# 安装 kubernetes 
-yum install -y etcd kubernetes
 
-# 按顺序启动所有服务，建议写一个脚本文件
-systemctl start etcd
-systemctl start docker
-systemctl start kube-apiserver
-systemctl start kube-controller-manager
-systemctl start kube-scheduler
-systemctl start kubelet
-systemctl start kube-proxy
-```
+### Linux 系统常用命令
+
+
 
 ---
 
