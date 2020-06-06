@@ -10,19 +10,40 @@ firewall-cmd --state
 
 # 开启防火墙
 systemctl start firewalld.service
+service firewall start
+
+# 关闭防火墙
+systemctl start firewalld.service
+service firewall stop
+
+# 重启防火墙
+systemctl restart firewalld.service
+service firewall restart
 
 # 开启8080端口
 firewall-cmd --zone=public --add-port=8080/tcp --permanent
+# 关闭端口8080
+firewall-cmd --zone=public --remove-port=8080/tcp --permanent
+
+# 开启端口范围
+firewall-cmd --permanent --add-port=8080-8085/tcp
+# 关闭开放端口(注意：单个对单个，范围对范围)
+firewall-cmd --permanent --remove-port=8080-8085/tcp
+
+# 查看Linux系统都开放了哪些端口
+firewall-cmd --permanent --list-ports
+
+# 查看开启端口和服务
+firewall-cmd --permanent --list-ports 80/tcp 8080-8100/tcp
+firewall-cmd --permanent --list-services ssh dhcpv6client
+
+# 重新载入配置
+firewall-cmd --reload
+
 ## 参数解释
 --zone=public：表示作用域为公共的；
 --add-port=8080/tcp：添加tcp协议的端口8080；
 --permanent：永久生效，如果没有此参数，则只能维持当前服务生命周期内，重新启动后失效；
-
-# 重启防火墙
-systemctl restart firewalld.service
-
-# 重新载入配置
-firewall-cmd --reload
 
 # 查看端口情况 MySQL 数据库
 yum install net-tools -y
