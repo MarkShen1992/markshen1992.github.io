@@ -89,6 +89,10 @@ docker run -d -p 8000:8000 -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.
 
 如图所以，portainer 成功安装。
 
+### 扩展内容
+
+![Docker 知识总结](https://markshen1992.github.io/document/devops/ops/linux/docker_knowledge.jpg)
+
 ---
 
 [back2index](./../../../../index.html) 
