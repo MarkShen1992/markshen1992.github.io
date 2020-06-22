@@ -63,11 +63,11 @@ WHERE TIME > 60
 
 #### 2.2如何获取SQL的执行计划
 
-​	**EXPLAIN|DESC `SQL`** -> SELECT, INSERT, UPDATE, REPLACE, DELETE
+​	**EXPLAIN/DESC `SQL`** -> SELECT, INSERT, UPDATE, REPLACE, DELETE
 
 #### 2.3执行计划内容分析
 
-- id: 数字|NULL
+- id: 数字/NULL
   - 数字：表示查询执行的顺序, id相同时由上到下执行，id值不同，id值越高，表示其越优先执行
   - NULL: `union`操作后的结果集
 - select_type: 查询类型
@@ -82,7 +82,7 @@ WHERE TIME > 60
 - table: 执行计划中的数据有哪个表输出的
   - <unionM,N> 由ID为M,N查询union产生的结果集
   - <derived N>/<subquery N> 由ID为N的查询产生的结果
-- partitions: 分区表的时候才有意义，分区表id|NULL
+- partitions: 分区表的时候才有意义，分区表id/NULL
 - type: **system > const  > eq_ref > ref > ref_or_null > index_merge > range** > index > ALL
   - system: 这是const连接类型的一个特例，当查询的表只有一行时使用
   - const: 表中有且只有一个匹配的行时使用，如对主键或唯一索引的查询，效率最高的方式
