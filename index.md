@@ -48,9 +48,11 @@ layout: default
 
 [Docker使用日记](./document/docker/docker.html)
 
-### MySQL DB集群
+### MySQL
 
 [MySQL集群入门](./document/mysql/cluster.html)
+
+[MySQL8优化](./document/mysql/MySQL8_Optimization.html)
 
 ### 缓存
 
