@@ -13,6 +13,7 @@
 #### 4. [DNSMAQ搭建DNS服务器](http://www.thekelleys.org.uk/)
 
 - [微信文章-DNSMQA搭建DNS服务器](https://mp.weixin.qq.com/s/rfPG6lbeHPTJmrYiuAZpvA)
+- [SmartDNS](https://pymumu.github.io/smartdns/)
 
 #### 5. [Linux(CentOS 7) 安装 Percona DB-5.7.21-21](https://markshen1992.github.io/document/devops/ops/linux/linux_percona_db_install.html)
 
